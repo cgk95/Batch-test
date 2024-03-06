@@ -1,0 +1,13 @@
+server:
+  port: 8110
+
+spring:
+  batch:
+    jdbc:
+      initialize-schema: always
+
+  datasource:
+    url: jdbc:mysql://localhost:13306/batch
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    username: root
+    password: 1q2w3e4r

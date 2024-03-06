@@ -1,0 +1,6 @@
+server:
+  port: 8110
+spring:
+  batch:
+    jdbc:
+      initialize-schema: always
